@@ -2,6 +2,11 @@
 
 通過IOT平台將終端裝置(樹梅派)偵測到的人體與展示物的距離回傳，並以明顯的圖示通知使用者。
 
+設置：
+1. IOTtalk平台，https://iottalk.tw/#
+2. 樹梅派+相機模組，https://piepie.com.tw/product/pi-camera-module-v3
+3. 套件:openCV、numpy、tensorflow(2.0以上)
+
 執行方式:
 1. 執行"camera_for_background.py"，令樹梅派的相機模組擷取展示物的背景
 2. 執行"reference_object_location.py"，並手動框選畫面中的展示物
